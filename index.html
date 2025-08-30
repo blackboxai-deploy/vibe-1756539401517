@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICETEA 2026 - 1st International Conference on Emerging Technologies and Engineering Applications</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .hero-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center space-x-4">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/e752d869-efb4-44d5-9ad2-51488153b777.png" alt="Conference Logo" class="h-12 w-12">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/0ed1e310-4016-4106-8b1f-3af435376be1.png" alt="NAAC Logo" class="h-12 w-12">
+                    <div>
+                        <h1 class="text-xl font-bold text-blue-900">ICETEA 2026</h1>
+                        <p class="text-sm text-gray-600">Silver Oak University</p>
+                    </div>
+                </div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="index.html" class="text-blue-900 font-semibold border-b-2 border-blue-600 pb-1">Home</a>
+                    <a href="about.html" class="text-gray-700 hover:text-blue-900 hover:border-b-2 hover:border-blue-600 pb-1">About</a>
+                    <a href="call-for-papers.html" class="text-gray-700 hover:text-blue-900 hover:border-b-2 hover:border-blue-600 pb-1">Call for Papers</a>
+                    <a href="schedule.html" class="text-gray-700 hover:text-blue-900 hover:border-b-2 hover:border-blue-600 pb-1">Schedule</a>
+                    <a href="committee.html" class="text-gray-700 hover:text-blue-900 hover:border-b-2 hover:border-blue-600 pb-1">Committee</a>
+                    <a href="contact.html" class="text-gray-700 hover:text-blue-900 hover:border-b-2 hover:border-blue-600 pb-1">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="text-gray-700">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+            <div id="mobile-menu" class="hidden md:hidden pb-4">
+                <a href="index.html" class="block py-2 text-blue-900 font-semibold">Home</a>
+                <a href="about.html" class="block py-2 text-gray-700">About</a>
+                <a href="call-for-papers.html" class="block py-2 text-gray-700">Call for Papers</a>
+                <a href="schedule.html" class="block py-2 text-gray-700">Schedule</a>
+                <a href="committee.html" class="block py-2 text-gray-700">Committee</a>
+                <a href="contact.html" class="block py-2 text-gray-700">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-bg text-white py-20">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">ICETEA 2026</h1>
+            <h2 class="text-xl md:text-2xl mb-4">1st International Conference on Emerging Technologies and Engineering Applications</h2>
+            <div class="flex flex-col md:flex-row justify-center items-center space-y-2 md:space-y-0 md:space-x-8 mb-8">
+                <div class="flex items-center">
+                    <i class="fas fa-calendar-alt mr-2"></i>
+                    <span>February 19-20, 2026</span>
+                </div>
+                <div class="flex items-center">
+                    <i class="fas fa-map-marker-alt mr-2"></i>
+                    <span>Silver Oak University, Ahmedabad, India</span>
+                </div>
+                <div class="flex items-center">
+                    <i class="fas fa-globe mr-2"></i>
+                    <span>Hybrid Mode</span>
+                </div>
+            </div>
+            <div class="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-6">
+                <a href="#" class="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg font-semibold transition duration-300">
+                    <i class="fas fa-paper-plane mr-2"></i>Submit Your Paper
+                </a>
+                <a href="#" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition duration-300">
+                    <i class="fas fa-user-plus mr-2"></i>Call for Reviewers
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conference Description -->
+    <section class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">About ICETEA 2026</h2>
+                <div class="w-24 h-1 bg-blue-600 mx-auto"></div>
+            </div>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                        The 1st International Conference on Emerging Technologies and Engineering Applications (ICETEA 2026) is the first edition of a global forum for such an initiative. ICETEA 2026 is scheduled to take place in hybrid mode on February 19-20, 2026, at the College of Technology, Silver Oak University, Ahmedabad, India.
+                    </p>
+                    <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                        This conference is aimed at bringing together researchers, academicians, and industry to exchange knowledge in the areas of Artificial Intelligence, Machine Learning, IoT, Cybersecurity, Blockchain, 6G Communication, Quantum Computing, and Sustainable Technology.
+                    </p>
+                    <p class="text-lg text-gray-700 leading-relaxed">
+                        The papers will be published by Springer (XXXX Series), which has international visibility and impact. The conference topic is consistent with the UN Sustainable Development Goals (SDGs) and discusses aspects of education, innovation, societal, and security benefits.
+                    </p>
+                </div>
+                <div class="text-center">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/03f237cf-ecf1-4779-838e-6cad9d240edc.png" alt="Conference Illustration" class="rounded-lg shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Features -->
+    <section class="py-16 bg-gray-100">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Conference Highlights</h2>
+                <div class="w-24 h-1 bg-blue-600 mx-auto"></div>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg card-hover">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-globe-americas"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Global Forum</h3>
+                    <p class="text-gray-700">First edition bringing together international researchers, academicians, and industry professionals.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg card-hover">
+                    <div class="text-green-600 text-4xl mb-4">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Springer Publication</h3>
+                    <p class="text-gray-700">Papers will be published by Springer with international visibility and impact.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg card-hover">
+                    <div class="text-purple-600 text-4xl mb-4">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">UN SDG Aligned</h3>
+                    <p class="text-gray-700">Conference themes align with United Nations Sustainable Development Goals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Important Dates -->
+    <section class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Important Dates</h2>
+                <div class="w-24 h-1 bg-blue-600 mx-auto"></div>
+            </div>
+            <div class="overflow-x-auto">
+                <table class="w-full bg-white shadow-lg rounded-lg overflow-hidden">
+                    <thead class="bg-blue-600 text-white">
+                        <tr>
+                            <th class="px-6 py-4 text-left">S.No</th>
+                            <th class="px-6 py-4 text-left">Title</th>
+                            <th class="px-6 py-4 text-left">Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="border-b">
+                            <td class="px-6 py-4">1</td>
+                            <td class="px-6 py-4">Paper submission starts</td>
+                            <td class="px-6 py-4">TBA</td>
+                        </tr>
+                        <tr class="border-b bg-gray-50">
+                            <td class="px-6 py-4">2</td>
+                            <td class="px-6 py-4">Paper submission deadline</td>
+                            <td class="px-6 py-4">TBA</td>
+                        </tr>
+                        <tr class="border-b">
+                            <td class="px-6 py-4">3</td>
+                            <td class="px-6 py-4">Notification of acceptance</td>
+                            <td class="px-6 py-4">TBA</td>
+                        </tr>
+                        <tr class="border-b bg-gray-50">
+                            <td class="px-6 py-4">4</td>
+                            <td class="px-6 py-4">Early bird Registration ends</td>
+                            <td class="px-6 py-4">TBA</td>
+                        </tr>
+                        <tr class="border-b">
+                            <td class="px-6 py-4">5</td>
+                            <td class="px-6 py-4">Regular Registration ends</td>
+                            <td class="px-6 py-4">TBA</td>
+                        </tr>
+                        <tr class="border-b bg-gray-50">
+                            <td class="px-6 py-4">6</td>
+                            <td class="px-6 py-4">Camera-ready Submissions</td>
+                            <td class="px-6 py-4">TBA</td>
+                        </tr>
+                        <tr class="bg-blue-50">
+                            <td class="px-6 py-4 font-bold">7</td>
+                            <td class="px-6 py-4 font-bold">Conference Dates</td>
+                            <td class="px-6 py-4 font-bold text-blue-600">February 19-20, 2026</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sponsors -->
+    <section class="py-16 bg-gray-100">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Sponsors</h2>
+                <div class="w-24 h-1 bg-blue-600 mx-auto"></div>
+            </div>
+            <div class="flex flex-col md:flex-row justify-center items-center space-y-8 md:space-y-0 md:space-x-12">
+                <div class="text-center">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/72e56bb2-3db2-4c8e-a78a-00f9aa156838.png" alt="IEEE SOU Student Branch" class="mx-auto mb-4 bg-white p-4 rounded-lg shadow">
+                    <h3 class="font-semibold">IEEE SOU Student Branch</h3>
+                    <p class="text-sm text-gray-600">Main Sponsor</p>
+                </div>
+                <div class="text-center">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/51e70e3f-4929-40d6-8eda-632ecd866ab7.png" alt="IEEE Computer Society" class="mx-auto mb-4 bg-white p-4 rounded-lg shadow">
+                    <h3 class="font-semibold">IEEE Computer Society</h3>
+                    <p class="text-sm text-gray-600">Co-Sponsor</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ahmedabad at a Glance -->
+    <section class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Ahmedabad at a Glance</h2>
+                <div class="w-24 h-1 bg-blue-600 mx-auto"></div>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="text-center p-6 bg-gray-50 rounded-lg card-hover">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/4c86a2d9-3986-4655-8c65-7a3b86244632.png" alt="Sabarmati Ashram" class="w-full h-32 object-cover rounded mb-4">
+                    <h3 class="font-semibold mb-2">Sabarmati Ashram</h3>
+                    <p class="text-sm text-gray-600">Mahatma Gandhi's Home</p>
+                </div>
+                <div class="text-center p-6 bg-gray-50 rounded-lg card-hover">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/c344b3ea-abfb-44b7-a8cd-68bccc785634.png" alt="Heritage Architecture" class="w-full h-32 object-cover rounded mb-4">
+                    <h3 class="font-semibold mb-2">Heritage City</h3>
+                    <p class="text-sm text-gray-600">Indo-Islamic Architecture</p>
+                </div>
+                <div class="text-center p-6 bg-gray-50 rounded-lg card-hover">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/e35302fc-f4a9-494b-8ff8-3703145fea0d.png" alt="Adalaj Stepwell" class="w-full h-32 object-cover rounded mb-4">
+                    <h3 class="font-semibold mb-2">Adalaj Stepwell</h3>
+                    <p class="text-sm text-gray-600">Ancient Architecture</p>
+                </div>
+                <div class="text-center p-6 bg-gray-50 rounded-lg card-hover">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/49fe2378-9c54-4226-86f3-433e5b260ddf.png" alt="UNESCO Heritage" class="w-full h-32 object-cover rounded mb-4">
+                    <h3 class="font-semibold mb-2">UNESCO Heritage</h3>
+                    <p class="text-sm text-gray-600">World Heritage City</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact Information</h3>
+                    <div class="space-y-2">
+                        <p><i class="fas fa-map-marker-alt mr-2"></i>Silver Oak University</p>
+                        <p>Near S G Highway, Ahmedabad</p>
+                        <p>Gujarat 382481, India</p>
+                        <p><i class="fas fa-envelope mr-2"></i>info@icetea2026.com</p>
+                        <p><i class="fas fa-phone mr-2"></i>+91 XXX XXX XXXX</p>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <div class="space-y-2">
+                        <a href="about.html" class="block hover:text-blue-400">About Conference</a>
+                        <a href="call-for-papers.html" class="block hover:text-blue-400">Call for Papers</a>
+                        <a href="schedule.html" class="block hover:text-blue-400">Program Schedule</a>
+                        <a href="committee.html" class="block hover:text-blue-400">Committee</a>
+                        <a href="contact.html" class="block hover:text-blue-400">Contact Us</a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-2xl hover:text-blue-400"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-2xl hover:text-blue-400"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-2xl hover:text-blue-400"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-2xl hover:text-blue-400"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8">
+                <div class="text-center mb-4">
+                    <p class="text-sm">The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.</p>
+                </div>
+                <div class="text-center">
+                    <p>&copy; 2026 ICETEA 2026. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
